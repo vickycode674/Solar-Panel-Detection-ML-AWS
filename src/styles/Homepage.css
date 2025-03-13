@@ -1,0 +1,60 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Home Page Container */
+  .home-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    text-align: center;
+  }
+  
+  /* Title */
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Options Container */
+  .options-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Option Boxes */
+  .option-box {
+    width: 180px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .option-box:hover {
+    transform: scale(1.05);
+    background: #f8f9fa;
+  }
+  
+  /* Disabled Box */
+  .option-box.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  

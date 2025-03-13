@@ -1,0 +1,49 @@
+/* General Page Styling */
+.upload-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #4caf50, #2e7d32);
+    color: white;
+    text-align: center;
+  }
+  
+  /* Title */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input File */
+  input[type="file"] {
+    background: white;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  /* Upload Button */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #ffeb3b;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #ffd600;
+  }
+  
+  /* Message Styling */
+  .message {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  

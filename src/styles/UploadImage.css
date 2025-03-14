@@ -1,0 +1,35 @@
+.upload-container {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-container input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 20%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .upload-container button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .status {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  

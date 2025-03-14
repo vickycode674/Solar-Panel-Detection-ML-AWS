@@ -1,0 +1,51 @@
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #05344d; /* Deep Sky Blue */
+    color: white;
+    padding: 15px 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid #00b4d8; /* Light Cyan Border */
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #caf0f8; /* Soft Blue Text */
+}
+
+/* Navigation Links */
+.nav-links a {
+    color: #e0f7fa; /* Light Blue Text */
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 17px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* Hover Effect */
+.nav-links a:hover {
+    color: #ffdd57; /* Golden Yellow for Contrast */
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+
+    .nav-links a {
+        display: block;
+        margin: 10px 0;
+    }
+}

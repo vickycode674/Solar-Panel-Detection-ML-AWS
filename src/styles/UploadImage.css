@@ -10,7 +10,7 @@
     display: block;
     margin: 10px auto;
     padding: 10px;
-    width: 20%;
+    width: 30%;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
@@ -19,6 +19,7 @@
     background-color: #007bff;
     color: white;
     padding: 10px 20px;
+    margin-bottom: 3rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;

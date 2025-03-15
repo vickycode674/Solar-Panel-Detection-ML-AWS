@@ -120,7 +120,7 @@ const UploadImage = () => {
       {message && <p className="upload-message">{message}</p>}
 
       {/* 📌 View Results Button */}
-      <button onClick={() => navigate("/results")} className="view-results-btn">
+      <button onClick={() => navigate("/image-results")} className="view-results-btn">
         View Results
       </button>
     </div>

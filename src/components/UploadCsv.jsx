@@ -73,6 +73,10 @@ const UploadCSV = () => {
       <button onClick={() => navigate("/results")} className="view-results-btn">
           View Results
         </button>
+        <button onClick={() => navigate("/manual-entry")} className="add-data-btn">
+  ➕ Manually Add Data
+</button>
+
     </div>
   );
 };

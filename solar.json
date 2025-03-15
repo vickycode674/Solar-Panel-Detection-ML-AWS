@@ -1,0 +1,25 @@
+{
+    "panels": [
+      {
+        "id": "SP-001",
+        "imageUrl": "../../assets/degraded.jpg",
+        "status": "Good"
+      },
+      {
+        "id": "SP-002",
+        "imageUrl": "../../",
+        "status": "Bad"
+      },
+      {
+        "id": "SP-003",
+        "imageUrl": "https://example.com/panel3.jpg",
+        "status": "Good"
+      },
+      {
+        "id": "SP-004",
+        "imageUrl": "https://example.com/panel4.jpg",
+        "status": "Bad"
+      }
+    ]
+  }
+  

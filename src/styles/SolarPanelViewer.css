@@ -1,0 +1,150 @@
+/* Main Container */
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #0b3d91, #152238);
+    color: white;
+  }
+  
+  .solar-container {
+    width: 150%;
+    max-width: 700px;
+    margin-top: -2rem;
+    background: linear-gradient(135deg, #1b3a57, #4a90e2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    margin: 30px auto;
+  }
+  
+  /* Heading */
+  .solar-title {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  /* Image Container */
+  .solar-image-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d0e7ff;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  /* Solar Panel Image */
+  .solar-panel-image {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .solar-panel-image:hover {
+    transform: scale(1.05);
+  }
+  
+/* Arrows Styling */
+.solar-arrow {
+    position: absolute;
+    background: linear-gradient(135deg, #b4918c, #ac9a93); /* New vibrant gradient */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px; /* Increased size */
+    padding: 22px; /* More padding for better touch interaction */
+    border-radius: 50%;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Added shadow for depth */
+  }
+  
+  /* Move arrows slightly outside the container */
+  .solar-left-arrow {
+    left: -20px;
+  }
+  
+  .solar-right-arrow {
+    right: -20px;
+  }
+  
+  /* Hover effect */
+  .solar-arrow:hover {
+    background: linear-gradient(135deg, #9f6b62, #8f8080); /* More contrast on hover */
+    transform: scale(1.2); /* Bigger on hover */
+  }
+  
+  /* Panel Info */
+  .solar-panel-info {
+    margin-top: 15px;
+    padding: 10px;
+    background: #264d73;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  
+  .solar-panel-id {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .solar-panel-status {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  
+  /* Status Colors */
+  .solar-panel-status.good {
+    background-color: #27ae60;
+    color: white;
+  }
+  
+  .solar-panel-status.bad {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .solar-panel-status.degraded {
+    background-color: #f39c12;
+    color: white;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .solar-container {
+      width: 95%;
+      padding: 15px;
+    }
+  
+    .solar-panel-image {
+      max-height: 250px;
+    }
+  
+    .solar-arrow {
+      font-size: 16px;
+      padding: 8px;
+    }
+  
+    .solar-panel-id {
+      font-size: 16px;
+    }
+  
+    .solar-panel-status {
+      font-size: 14px;
+    }
+  }
+  

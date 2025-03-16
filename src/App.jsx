@@ -5,6 +5,7 @@ import ResultsPage from "./components/ResultPage";
 import UploadImage from "./components/UploadImage";
 import ResultImagePage from "./components/ResultImagePage";
 import ManualEntry from "./components/ManualEntry";
+import Methodology from "./components/Methodology";
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       <Route path="/image-results" element={<ResultImagePage />} />
       <Route path="/upload-image" element={<UploadImage />} />
       <Route path="/manual-entry" element={<ManualEntry />} />
-
+      <Route path="/methodology" element={<Methodology />} /> 
     </Routes>
   );
 }

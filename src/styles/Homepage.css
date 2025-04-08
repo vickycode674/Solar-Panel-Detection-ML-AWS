@@ -1,60 +1,88 @@
-/* General Styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html, #root {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;  /* ✅ Prevent horizontal scroll only */
+  overflow-y: auto;    /* ✅ Enable vertical scroll when needed */
+}
+
+.home-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* subtle darkness for clarity */
+  padding: 40px 30px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  max-width: 600px;
+  width: 90%;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-subtitle {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  color: #dddddd;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.upload-btn {
+  background-color: #00c897;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upload-btn:hover {
+  background-color: #009b73;
+  transform: translateY(-2px);
+}
+
+@media screen and (max-width: 768px) {
+  .hero-title {
+    font-size: 1.6rem;
   }
-  
-  /* Home Page Container */
-  .home-container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right, #007bff, #00c6ff);
-    color: white;
-    text-align: center;
+
+  .hero-subtitle {
+    font-size: 0.9rem;
   }
-  
-  /* Title */
-  h1 {
-    font-size: 28px;
-    margin-bottom: 20px;
+
+  .upload-btn {
+    width: 100%;
+    padding: 12px;
   }
-  
-  /* Options Container */
-  .options-container {
-    display: flex;
-    gap: 20px;
+
+  .overlay {
+    padding: 30px 20px;
   }
-  
-  /* Option Boxes */
-  .option-box {
-    width: 180px;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: white;
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 0.3s;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .option-box:hover {
-    transform: scale(1.05);
-    background: #f8f9fa;
-  }
-  
-  /* Disabled Box */
-  .option-box.disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-  }
-  
+}

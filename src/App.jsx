@@ -6,6 +6,8 @@ import UploadImage from "./components/UploadImage";
 import ResultImagePage from "./components/ResultImagePage";
 import ManualEntry from "./components/ManualEntry";
 import Methodology from "./components/Methodology";
+import AboutUs from "./components/About";
+import BehindTheScenes from "./components/BehindScenes";
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
       <Route path="/upload-image" element={<UploadImage />} />
       <Route path="/manual-entry" element={<ManualEntry />} />
       <Route path="/methodology" element={<Methodology />} /> 
+      <Route path="/about" element={<AboutUs/>} />
+      <Route path="/bts" element={<BehindTheScenes/>} />
     </Routes>
   );
 }

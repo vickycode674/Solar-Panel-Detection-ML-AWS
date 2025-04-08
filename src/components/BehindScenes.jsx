@@ -8,7 +8,7 @@ import awsS3 from "../assets/bts/awsS3.png";
 import bts1 from "../assets/bts/bts1.png";
 import dynamoDb from "../assets/bts/dynamoDb.png";
 import IAM from "../assets/bts/IAM.png";
-import sageMaker from "../assets/bts/sageMaker.png";
+import sageMaker from "../assets/bts/Sagemaker.png";
 
 const images = [
   { src: apiGateway, caption: "Late-night debugging squad 💻☕" },

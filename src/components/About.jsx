@@ -27,7 +27,7 @@ const AboutUs = () => {
         </section>
 
         <section className="section">
-          <h2>Team member2:👨‍💻 Developer</h2>
+          <h2>Team member 2:👨‍💻 Developer</h2>
           <p>
             <strong>Aditya</strong><br />
             Final Year CSE | SRM IST Ramapuram<br />
@@ -36,7 +36,7 @@ const AboutUs = () => {
         </section>
 
         <section className="section">
-          <h2>Team member3:👨‍💻 Developer</h2>
+          <h2>Team member 3:👨‍💻 Developer</h2>
           <p>
             <strong>Chengalapattu Vivek Sai</strong><br />
             Final Year CSE | SRM IST Ramapuram<br />
@@ -64,16 +64,6 @@ const AboutUs = () => {
             <strong>ML:</strong> Scikit-learn, Amazon SageMaker<br />
             <strong>Storage:</strong> Amazon S3<br />
             <strong>Deployment:</strong> Vercel, GitHub
-          </p>
-        </section>
-
-        <section className="section">
-          <h2>👨‍💻 Developer</h2>
-          <p>
-            <strong>Chengalapattu Vivek Sai</strong><br />
-            Final Year CSE | SRM IST Ramapuram<br />
-            IIT PALS Student Leader<br />
-            Passionate about Cloud ☁️ + AI 🤖 + Real-world Innovation 🌍
           </p>
         </section>
 

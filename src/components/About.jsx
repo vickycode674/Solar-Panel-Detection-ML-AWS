@@ -18,7 +18,25 @@ const AboutUs = () => {
         </section>
 
         <section className="section">
-          <h2>👨‍💻 Developer</h2>
+          <h2>Team Member1👨‍💻 Developer Captain</h2>
+          <p>
+            <strong>Jayakumar</strong><br />
+            Final Year CSE | SRM IST Ramapuram<br />
+            Passionate about Cloud ☁️ + AI 🤖 + Real-world Innovation 🌍
+          </p>
+        </section>
+
+        <section className="section">
+          <h2>Team member2:👨‍💻 Developer</h2>
+          <p>
+            <strong>Aditya</strong><br />
+            Final Year CSE | SRM IST Ramapuram<br />
+            Passionate about Cloud ☁️ + AI 🤖 + Real-world Innovation 🌍
+          </p>
+        </section>
+
+        <section className="section">
+          <h2>Team member3:👨‍💻 Developer</h2>
           <p>
             <strong>Chengalapattu Vivek Sai</strong><br />
             Final Year CSE | SRM IST Ramapuram<br />

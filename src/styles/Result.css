@@ -8,10 +8,12 @@
   color: white;
 }
 
+
 /* 🎯 Header Styling */
 h2 {
   font-size: 32px;
   color: white;
+  font-size: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
   background: rgba(0, 0, 0, 0.2);
@@ -20,6 +22,11 @@ h2 {
   display: inline-block;
   margin-bottom: 25px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+color: #333;
+font-size: 22px;
 }
 
 /* 📊 Charts Section */
@@ -59,14 +66,23 @@ h2 {
 /* 📋 Table Section */
 .table-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin-top: 20px;
+  padding: 0 5%;
+}
+
+/* Title Styling */
+.table-container h3 {
+  color: black;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 /* 💎 Table with Black Border & Glassmorphism */
 table {
-  width: 90%;
-  max-width: 900px;
+  width: 100%;
+  max-width: 800px;
   border-collapse: collapse;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
@@ -74,14 +90,17 @@ table {
   border: 3px solid black;
   border-radius: 10px;
   overflow: hidden;
+  margin-top: 10px;
 }
 
 /* 📌 Table Headers */
 th, td {
   padding: 14px;
   text-align: center;
+  color: white;
+  background-color: black;
 }
-
+ 
 th {
   background-color: black;
   color: white;
@@ -90,7 +109,7 @@ th {
 
 /* 🌟 Alternating Row Colors */
 tr {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: black;
     color: white;
 }
 

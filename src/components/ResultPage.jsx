@@ -13,7 +13,6 @@ const ResultsPage = () => {
       .then((jsonData) => {
         const parsedData = JSON.parse(jsonData.body); // Convert `body` string to JSON array
         setData(parsedData);
-        console.log("here is the jayakumar favourite format of data==================",parsedData);
         setLoading(false);
       })
       .catch((error) => {
@@ -69,8 +68,9 @@ const ResultsPage = () => {
         </div>
       </div>
 
-      <h3>Panel Status Table</h3>
       <div className="table-container">
+      <h3>Panel Status Table</h3>
+
         <table>
           <thead>
             <tr>
